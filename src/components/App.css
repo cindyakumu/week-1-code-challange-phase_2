@@ -1,0 +1,50 @@
+/* General styles */
+body {
+    background-color: #FFD1DC; /* Modern pink background */
+    font-family: 'Roboto', sans-serif; /* Elegant and readable font */
+    color: #333; /* Dark grey for primary text */
+}
+
+/* AccountContainer styles */
+.AccountContainer {
+    background-color: #FFF0F5; /* Lighter pink for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* TransactionList and Transaction styles */
+.TransactionList, .Transaction {
+    background-color: #FFD1DC; /* Consistent with body background */
+}
+
+.TransactionList {
+    margin-bottom: 20px;
+}
+
+/* AddTransaction styles */
+.AddTransaction {
+    background-color: #FFC0CB; /* Slightly darker pink for distinction */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.AddTransaction button {
+    background-color: #FF69B4; /* Hot pink for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Search styles */
+.Search {
+    background-color: #FFF0F5; /* Lighter pink for input fields */
+}
+
+.Search input {
+    border: 2px solid #FF69B4; /* Hot pink border for inputs */
+    border-radius: 5px;
+    padding: 5px;
+}
